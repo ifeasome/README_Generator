@@ -52,7 +52,7 @@ const questions = () =>
     },
     {
       type: "input",
-      name: "contactInfo",
+      name: "eMail",
       message: "What is your email address?",
     },
   ]);
@@ -68,10 +68,14 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    questions.then(answers => {
-        const response = generateMarkdown(answers);
-        fs.writeFile("./README.md", response);
-    })
+    questions() 
+    .then((answers) => {
+      generateMarkdown;
+      writeToFile("./README.MD", generateMarkdown(answers));
+ 
+    }
+        
+    )
 }
 
 // function call to initialize program
