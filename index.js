@@ -68,7 +68,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    prompt(questions).then(answers => {
+    questions.then(answers => {
         const response = generateMarkdown(answers);
         fs.writeFile("./README.md", response);
     })
