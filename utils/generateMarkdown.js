@@ -2,7 +2,7 @@
 function licenseBadge(license) {
 
   return `
-  ![License Badge](https://img.shield.io/babdge/license-${license}-blue.svg)
+  ![License Badge](https://img.shields.io/badge/license-${license}-blue.svg)
   
 `
 }
@@ -51,7 +51,7 @@ function generateMarkdown(data) {
   For questions, queries or anything at all, contact me at: 
 
   Github: [https://github.com/${data.userName}](https://github.com/${data.userName}) 
-  
+
   
   Email: [${data.eMail}](${data.eMail})
 
