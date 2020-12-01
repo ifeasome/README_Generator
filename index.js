@@ -62,6 +62,8 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
             throw err;
+        } else {
+          console.log("README created!!! Check current repo for created file")
         }
     });
 }

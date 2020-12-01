@@ -1,4 +1,11 @@
 // function to generate markdown for README
+function licenseBadge(license) {
+
+  return `
+  ![License Badge](https://img.shield.io/babdge/license-${license}-blue.svg)
+  
+`
+}
 function generateMarkdown(data) {
   return `
   
@@ -34,14 +41,18 @@ function generateMarkdown(data) {
 
 
   ## License
-  ${data.License}
+  ${licenseBadge(data.License)}
+  
+
 
 
   ## Contact Information 
 
   For questions, queries or anything at all, contact me at: 
 
-  Github: [https://github.com/${data.userName}](https://github.com/${data.userName})
+  Github: [https://github.com/${data.userName}](https://github.com/${data.userName}) 
+  
+  
   Email: [${data.eMail}](${data.eMail})
 
 `;
