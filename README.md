@@ -33,7 +33,7 @@
 
   ## License
   
-  ![License Badge](https://img.shield.io/babdge/license-APACHE 2.0-blue.svg)
+  ![License Badge](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
   
 
   
