@@ -1,6 +1,12 @@
 
   
-  # Test
+  # app
+
+
+  
+  ![License Badge](https://img.shields.io/badge/license-ISC-blue.svg)
+  
+
 
   ## Table of Contents 
   * [Description](#Descritpion)
@@ -13,39 +19,37 @@
 
 
   ## Description
-  Testing
+  desc
 
 
   ## Installation 
-  download
+  instal
 
 
   ## Usage 
-  just use
+  instruct
+
 
   ## Tests 
-  intuitive
+  run it
 
 
   ## Contributors 
-  moi
+  No outside contributions allowed at this time. 
 
 
   ## License
   
-  ![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![License Badge](https://img.shields.io/badge/license-ISC-blue.svg)
   
 
   
-
-
 
   ## Contact Information 
-
   For questions, queries or anything at all, contact me at: 
 
-  Github: [https://github.com/hehe](https://github.com/hehe) 
+  Github: [https://github.com/git](https://github.com/git) 
 
   
-  Email: [haha](haha)
+  Email: [email](email)
 
