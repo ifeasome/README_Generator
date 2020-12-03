@@ -1,7 +1,6 @@
 // array of questions for user
 const fs = require("fs");
 const inquirer = require("inquirer");
-const { generate } = require("rxjs");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -22,28 +21,34 @@ const questions = () =>
     {
       type: "input",
       name: "Installation",
-      message: "What steps are needed to install application?",
+      message: "What steps are needed to install your application?",
     },
     {
       type: "input",
       name: "Usage",
-      meesage: "How do you use the application?",
+      message: "Provide instructions and examples for use.",
+    },
+    {
+      type: "input",
+      name: "Credits",
+      message: "List your collaborators/third-party assets used/tutorials. Include links as needed.",
+
     },
     {
       type: "input",
       name: "Tests",
-      message: "What are the steps needed to test your application?",
+      message: "Describe how to run tests on your application",
     },
     {
-      type: "input",
+      type: "confirm",
       name: "Contributors",
-      message: "Enter the name(s) of the all contributors to this application",
+      message: "Do you want any developers to contribute to this application?",
     },
     {
       type: "list",
       name: "License",
       message: "Select the license",
-      choices: ["MIT", "APACHE 2.0", "ISC", "Public Domain", "GPL", "BSD"],
+      choices: ["MIT", "APACHE", "ISC", "Public Domain", "GPL", "BSD"],
     },
     {
       type: "input",
@@ -72,9 +77,7 @@ function writeToFile(fileName, data) {
 function init() {
     questions() 
     .then((answers) => {
-      generateMarkdown;
       writeToFile("./README.MD", generateMarkdown(answers));
- 
     }
         
     )
