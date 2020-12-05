@@ -49,7 +49,7 @@
   To run tests, follow [video walkthrough](https://www.youtube.com/watch?v=d2mPQscvexw)
 
   ## Credits 
-  Credit to [Caroline Twyman](https://github.com/carolinetwyman) README generator repository for teaching me how to organise the user information into my README markdown file. @carolinetwyman
+  Credit to [Caroline Twyman](https://github.com/carolinetwyman) README generator repository for teaching me how to organise the user information into my README markdown file. 
 
 
   ## Contributors 
