@@ -12,7 +12,7 @@ function conTribute(input) {
 
 if (input===true) {
     return ` Please familiarise yourself with our Contributor Convenant before adding your contributions. 
-    ![Contributor Convenant](./code_of_conduct.md)
+    [Contributor Convenant](./code_of_conduct.md)
   `} else {
     return `No outside contributions allowed at this time. `
   }
