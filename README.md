@@ -1,6 +1,6 @@
 
   
-  # yella
+  # README_Generator
 
   
   ![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -18,25 +18,24 @@
 
 
   ## Description
-  abv
+  It generates a professional README 
 
 
   ## Installation 
-  git clone
+  Just follow the walkthrough
 
 
   ## Usage 
-  to create professional readme
+  Follow walkthrough for instructions
 
 
   ## Tests 
-  follow walkthough videos
+  I would go through README and watch walkthrough video 
 
 
   ## Contributors 
    Please familiarise yourself with our Contributor Convenant before adding your contributions. 
-   
-   [Contributor Convenant](./code_of_conduct.md)
+    [Contributor Convenant](./code_of_conduct.md)
   
 
 
@@ -54,5 +53,5 @@
   Github: [https://github.com/ifeasome](https://github.com/ifeasome) 
 
   
-  Email: [ifeaseome@gmail.com](ifeaseome@gmail.com)
+  Email: [ifeasome@gmail.com](ifeasome@gmail.com)
 
