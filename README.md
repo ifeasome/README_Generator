@@ -1,10 +1,9 @@
 
   
-  # app
-
+  # yella
 
   
-  ![License Badge](https://img.shields.io/badge/license-ISC-blue.svg)
+  ![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
   
 
 
@@ -19,37 +18,40 @@
 
 
   ## Description
-  desc
+  abv
 
 
   ## Installation 
-  instal
+  git clone
 
 
   ## Usage 
-  instruct
+  to create professional readme
 
 
   ## Tests 
-  run it
+  follow walkthough videos
 
 
   ## Contributors 
-  No outside contributions allowed at this time. 
+   Please familiarise yourself with our Contributor Convenant before adding your contributions. 
+    ![Contributor Convenant](./code_of_conduct.md)
+  
 
 
   ## License
   
-  ![License Badge](https://img.shields.io/badge/license-ISC-blue.svg)
+  ![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
   
 
+  © 2020 Somelina Obiechina
   
 
   ## Contact Information 
   For questions, queries or anything at all, contact me at: 
 
-  Github: [https://github.com/git](https://github.com/git) 
+  Github: [https://github.com/ifeasome](https://github.com/ifeasome) 
 
   
-  Email: [email](email)
+  Email: [ifeaseome@gmail.com](ifeaseome@gmail.com)
 
