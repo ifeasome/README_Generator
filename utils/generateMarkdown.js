@@ -23,7 +23,6 @@ function generateMarkdown(data) {
   
   # ${data.appName}
 
-
   ${licenseBadge(data.License)}
 
   ## Table of Contents 
@@ -58,6 +57,7 @@ function generateMarkdown(data) {
 
   ## License
   ${licenseBadge(data.License)}
+  © ${data.projectYear} ${data.developerName}
   
 
   ## Contact Information 
