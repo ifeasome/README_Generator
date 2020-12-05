@@ -35,7 +35,7 @@
 
   ## Contributors 
    Please familiarise yourself with our Contributor Convenant before adding your contributions. 
-    (./code_of_conduct.md)
+    ![Convenant](./code_of_conduct.md)
   
 
 
