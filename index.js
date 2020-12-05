@@ -52,6 +52,16 @@ const questions = () =>
     },
     {
       type: "input",
+      name: "projectYear",
+      message: "Type in the current numerical year",
+    },
+    {
+      type: "input",
+      name: "developerName",
+      message: "Full name of developer",
+    },
+    {
+      type: "input",
       name: "userName",
       message: "What is your Github username",
     },
